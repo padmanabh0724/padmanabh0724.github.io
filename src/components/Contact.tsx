@@ -9,22 +9,22 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '(919) 924-5536',
-      href: 'tel:+19199245536',
+      value: '(919) 307-6456',
+      href: 'tel:+19193076456',
       color: 'text-green-600'
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'desai.padmanabh01@gmail.com',
-      href: 'mailto:desai.padmanabh01@gmail.com',
+      value: 'padmanabhdesai1524@gmail.com',
+      href: 'mailto:padmanabhdesai1524@gmail.com',
       color: 'text-blue-600'
     },
     {
       icon: Linkedin,
       label: 'LinkedIn',
       value: 'Connect on LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/padmanabhprofile/',
       color: 'text-blue-700'
     },
     {
@@ -86,11 +86,7 @@ const Contact = () => {
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Freelance projects</span>
-                  </li>
-                  <li className="flex items-center space-x-2">
-                    <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                    <span>Consulting work</span>
+                    <span>Contract positions</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-green-500 rounded-full"></div>
@@ -106,24 +102,19 @@ const Contact = () => {
             <Card className="bg-gradient-to-br from-primary to-blue-600 text-white border-0 shadow-lg">
               <CardContent className="p-8 text-center">
                 <Send className="h-12 w-12 mx-auto mb-4 opacity-90" />
-                <h3 className="text-2xl font-bold mb-4">Ready to Start a Project?</h3>
-                <p className="mb-6 opacity-90">
-                  I'm excited to work on challenging projects that make a difference. 
-                  Let's discuss how we can bring your ideas to life.
-                </p>
                 <div className="space-y-3">
                   <Button 
                     size="lg" 
-                    className="w-full bg-white text-primary hover:bg-gray-100"
-                    onClick={() => window.location.href = 'mailto:desai.padmanabh01@gmail.com'}
+                    className="w-full bg-white text-black hover:bg-white/10"
+                    onClick={() => window.location.href = 'mailto:padmanabhdesai1524@gmail.com'}
                   >
                     Send Email
                   </Button>
                   <Button 
                     variant="outline" 
                     size="lg" 
-                    className="w-full border-white text-white hover:bg-white/10"
-                    onClick={() => window.location.href = 'tel:+19199245536'}
+                    className="w-full border-white text-black hover:bg-white/10"
+                    onClick={() => window.location.href = 'tel:+19193076456'}
                   >
                     Call Now
                   </Button>
@@ -137,7 +128,7 @@ const Contact = () => {
         <div className="mt-16 text-center">
           <div className="border-t border-border pt-8">
             <p className="text-muted-foreground">
-              © 2024 Padmanabha Desai. Built with passion and modern web technologies.
+              © 2024 Padmanabha Desai. All rights reserved.
             </p>
           </div>
         </div>

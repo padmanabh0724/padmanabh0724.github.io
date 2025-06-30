@@ -4,33 +4,75 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const Skills = () => {
-  const skillCategories = [
-    {
-      category: 'Programming Languages',
-      skills: ['JavaScript Development', 'TypeScript Programming', 'Python Scripting', 'Java Development'],
-      color: 'bg-blue-500'
-    },
-    {
-      category: 'Web Technologies',
-      skills: ['React', 'Angular', 'HTML5', 'CSS3', 'RESTful APIs', 'GraphQL Integration'],
-      color: 'bg-green-500'
-    },
-    {
-      category: 'Backend & Database',
-      skills: ['Node.js', 'Express', 'SQL Querying', 'MongoDB', 'PostgreSQL', 'Microservices Architecture'],
-      color: 'bg-purple-500'
-    },
-    {
-      category: 'DevOps & Cloud',
-      skills: ['AWS Deployment', 'Docker Containerization', 'CI/CD Pipelines', 'Jenkins', 'GitHub Actions'],
-      color: 'bg-orange-500'
-    },
-    {
-      category: 'Development Practices',
-      skills: ['Agile Methodologies', 'Version Control (Git)', 'Problem Solving', 'Code Optimization'],
-      color: 'bg-red-500'
-    }
-  ];
+const skillCategories = [
+  {
+    category: 'Frontend Development',
+    skills: [
+      'React.js & React Native', 
+      'Angular & TypeScript', 
+      'Redux & Context API', 
+      'HTML5, CSS3, Tailwind CSS', 
+      'Responsive & Cross-Platform UI'
+    ],
+    color: 'bg-blue-500'
+  },
+  {
+    category: 'Backend & Microservices',
+    skills: [
+      'Java (Spring Boot, Spring MVC, Spring Security)', 
+      'Node.js & Express.js', 
+      'RESTful API Design', 
+      'Kafka & RabbitMQ Messaging', 
+      'OAuth2, JWT & API Security'
+    ],
+    color: 'bg-purple-600'
+  },
+  {
+    category: 'Databases & Storage',
+    skills: [
+      'MySQL & PostgreSQL (RDS, Aurora)', 
+      'MongoDB & Cassandra', 
+      'Hibernate & Spring Data JPA', 
+      'SQL, PL/SQL', 
+      'Azure Blob & AWS S3'
+    ],
+    color: 'bg-green-600'
+  },
+  {
+    category: 'Cloud & DevOps',
+    skills: [
+      'AWS (EC2, S3, Lambda, SageMaker)', 
+      'Azure (AKS, IoT Hub, Data Lake)', 
+      'Docker & Kubernetes', 
+      'CI/CD (Jenkins, Azure DevOps)', 
+      'Git & GitHub'
+    ],
+    color: 'bg-orange-500'
+  },
+  {
+    category: 'Testing & Monitoring',
+    skills: [
+      'JUnit, Mockito, Cypress', 
+      'Selenium Grid & Protractor', 
+      'Testcontainers for Integration Tests', 
+      'AWS CloudWatch, ELK Stack', 
+      'Application Insights'
+    ],
+    color: 'bg-red-500'
+  },
+  {
+    category: 'Enterprise & Interoperability',
+    skills: [
+      'HL7 & FHIR Standards', 
+      'HIPAA Compliance', 
+      'SAML Authentication', 
+      'EPIC & Cerner Integration', 
+      'System Architecture Design'
+    ],
+    color: 'bg-teal-500'
+  }
+];
+
 
   return (
     <section id="skills" className="py-16 px-6">

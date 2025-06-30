@@ -9,24 +9,24 @@ const Education = () => {
     {
       degree: 'Master of Science in Computer Science',
       institution: 'University of Alabama At Birmingham',
-      location: 'Birmingham, United States',
-      duration: 'Expected December 2024',
-      gpa: '3.6 CGPA',
+      location: 'Birmingham, US',
+      duration: 'Jan 2023 - Dec 2024',
+      gpa: '3.6 GPA',
       type: 'Masters'
     },
     {
       degree: 'Bachelor of Technology in Computer Science',
       institution: 'TKR College of Engineering and Technology',
       location: 'Hyderabad, India',
-      duration: 'Graduated June 2021',
+      duration: 'Graduated June 2018',
       gpa: '8.13 GPA',
       type: 'Bachelors'
     }
   ];
 
   const project = {
-    title: 'Blockchain-Powered Procurement System',
-    description: 'Developed a blockchain-powered secured system to control the procurement process. Blockchain maintained the state of each item in the supply chain, the complete supply chain was maintained/accessed/updated through Ethereum. The application handles procurement order details from vendors, and the order transactions are stored securely on an Ethereum blockchain.',
+    title: 'Decentralized Procurement System on Ethereum',
+    description: 'Designed and engineered a robust, blockchain-enabled procurement system focused on enhancing security and operational oversight. My contributions included developing the core logic for maintaining the complete supply chain state on the Ethereum blockchain, ensuring that all procurement order details and associated transactions from vendors are immutably stored and accessible. This project delivered a highly resilient and transparent platform for managing critical supply chain data.',
     technologies: ['Blockchain', 'Ethereum', 'Smart Contracts', 'Supply Chain Management']
   };
 
